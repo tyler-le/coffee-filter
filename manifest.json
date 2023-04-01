@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "CoffeeFilter",
   "description": "Filters out Starbucks, Dunkin', and McDonald's from Google Maps.",
-  "version": "1.1.1",
+  "version": "1.1.2",
 
   "action": {
     "default_popup": "pages/popup.html",
@@ -25,6 +25,5 @@
       "matches": ["https://www.google.com/maps/*"],
       "js": ["scripts/content.js"]
     }
-  ],
-  "permissions": ["tabs"]
+  ]
 }
