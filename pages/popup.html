@@ -15,23 +15,29 @@
   </head>
   <body>
     <header><h1>CoffeeFilter</h1></header>
+    <main>
+      <div class="success-msg">
+        <i class="fa fa-check"></i>
+        <b>Starbucks</b> is blocked on Google Maps.
+      </div>
 
-    <div class="success-msg">
-      <i class="fa fa-check"></i>
-      <b>Starbucks</b> is blocked on Google Maps.
-    </div>
+      <div class="success-msg">
+        <i class="fa fa-check"></i>
+        <b>Dunkin' Donuts</b> is blocked on Google Maps.
+      </div>
 
-    <div class="success-msg">
-      <i class="fa fa-check"></i>
-      <b>Dunkin' Donuts</b> is blocked on Google Maps.
-    </div>
+      <div class="success-msg">
+        <i class="fa fa-check"></i>
+        <b>McDonald's</b> is blocked on Google Maps.
+      </div>
+    </main>
 
-    <div class="success-msg">
-      <i class="fa fa-check"></i>
-      <b>McDonald's</b> is blocked on Google Maps.
-    </div>
-
-    <form id="donate" action="https://www.paypal.com/donate" method="post" target="_blank">
+    <form
+      id="donate"
+      action="https://www.paypal.com/donate"
+      method="post"
+      target="_blank"
+    >
       <input type="hidden" name="business" value="EKV3H7RW4298S" />
       <input type="hidden" name="no_recurring" value="0" />
       <input
@@ -56,5 +62,6 @@
         height="1"
       />
     </form>
+    <script src="../scripts/popup.js"></script>
   </body>
 </html>
