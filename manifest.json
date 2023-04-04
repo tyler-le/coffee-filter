@@ -25,6 +25,5 @@
       "matches": ["https://www.google.com/maps/*"],
       "js": ["scripts/content.js"]
     }
-  ],
-  "permissions": ["storage"]
+  ]
 }
